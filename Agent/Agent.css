@@ -1,0 +1,47 @@
+body{
+    background-image: url(../images.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section{
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 30%;
+    padding-bottom: 40%;
+    padding-right: 20%;
+}
+section h1{
+    color: white;
+    background-color: cornflowerblue;
+    text-transform: uppercase;
+    width: 50%;
+    border-top: 1px solid red;
+    border-bottom: 2px solid blue;
+    border-left: 1px solid green;
+    border-right: 2px solid yellow;
+    border-radius: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+img{
+    /* margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-right: -20%; */
+    width: 250px;
+    display: block;
+}
+
+img:hover{
+    width: 50%;
+    
+}
+
+.cacher{
+    display: none;
+}
